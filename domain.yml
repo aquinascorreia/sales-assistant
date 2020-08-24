@@ -8,6 +8,7 @@ intents:
   - bot_challenge
   - contact_sales
   - inform
+  - thank
 
 entities:
   - company
@@ -31,8 +32,20 @@ responses:
   utter_happy:
   - text: "Great, carry on!"
 
-  utter_goodbye:
-  - text: "Bye"
+  utter_bye:
+  - text: Goodbye!
+  - text: Bye!
+  - text: Ciao!
+  - text: Bye, was nice talking to you!
+  - text: Bye bye!
+
+  utter_noworries:
+  - text: No worries!
+  - text: You're welcome!
+  - text: I'm happy to help.
+
+  utter_anything_else:
+  - text: Is there anything else I can help you with?
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
