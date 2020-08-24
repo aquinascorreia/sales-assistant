@@ -5,63 +5,73 @@ intents:
   - deny
   - mood_great
   - mood_unhappy
+  - bot_challenge
+  - contact_sales
   - inform
-  - search_provider
-  - thanks
-  - out_of_scope
 
 entities:
-- facility_type
-- facility_id
-- location
+  - company
+  - job_function
+  - person_name
+  - budget
+  - business_email
+  - use_case
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_ask_business_email:
+  - text: What's your business email?
+
+  utter_ask_company:
+  - text: What company do you work for?
+
+  utter_ask_budget:
+  - text: "What's your annual budget for social analytics tool? 💸"
+
+  utter_ask_job_function:
+  - text: "What's your job? 🕴"
+
+  utter_ask_person_name:
+  - text: What's your name?
+
+  utter_ask_use_case:
+  - text: What's your use case?
 
 slots:
-  facility_type:
+  company:
     type: unfeaturized
-  facility_address:
+  job_function:
     type: unfeaturized
-  facility_id:
+  person_name:
     type: unfeaturized
-  location:
+  budget:
+    type: unfeaturized
+  business_email:
+    type: unfeaturized
+  use_case:
     type: unfeaturized
 
 forms:
-- facility_form
+  - sales_form
 
-actions:
-- utter_noworries
-- utter_greet
-- utter_goodbye
-- utter_ask_location
-- utter_ask_facility_type
-- find_facility_types
-- find_healthcare_address
-- utter_address
-
-
-templates:
-  utter_greet:
-  - text: "Hi. What are you looking for?"
-  - text: "Hey there! Please choose one of the healthcare facility options:"
-  - text: "Hello! What can I help you find today?"
-
-  utter_goodbye:
-  - text: "Talk to you later!"
-  - text: "Have a good day."
-  - text: "Until next time!"
-
-  utter_noworries:
-  - text: "My pleasure."
-  - text: "You are welcome!"
-
-  utter_ask_facility_type:
-  - text: "Choose one of the following to search for: hospital, nursing home, or home health agency."
-
-  utter_ask_location:
-  - text: "Please provide your city name."
-  - text: "What is your current city?"
-  - text: "Please provide your city name or zip code."
-  - text: "Please enter your zip code or city name to find local providers."
-
-  utter_address:
-  - text: "The address is {facility_address}."
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

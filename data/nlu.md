@@ -1,304 +1,225 @@
-## intent:affirm
-- yes
-- yes sure
-- absolutely
-- for sure
-- yes yes yes
-- definitely
-- yeah
-- si
-- ok
-- okay
-
-## intent:deny
-- no
-- not today
-- no thanks
-- no thank you
-- uh no
-- noope
-- do you have something else
-- no this does not work for me
-
-
-## intent:out_of_scope
-- please help with my ice cream it's dripping
-- no wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice cream later
-- i want a non dripping ice cream
-- someone call the police i think the bot died
-- show me a picture of a chicken
-- neither
-- I want french cuisine
-- i am hungry
-- restaurant
-- can i be shown a gluten free restaurant
-- i don't care!!!!
-- i do not care how are you
-- again?
-- oh wait i gave you my work email address can i change it?
-- hang on let me find it
-- stop it, i do not care!!!
-- how come?
-- I changed my mind
-- what?
-- did i break you
-- that link doesn't work!
-- you already have that
-- this is a really frustrating experience
-- no stop
-- give me food
-- i want food
-- Can I ask you questions first?
-- is it a wasteland full of broken robot parts?
-- can we keep chatting?
-- talk to me
-- who is your favourite robot?
-- can you help me to build a bot
+## intent:greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
 
 ## intent:goodbye
-- Bye
-- Bye!
-- Goodbye
-- See you later
-- Bye bot
-- Goodbye friend
 - bye
-- bye for now
-- catch you later
-- gotta go
-- See you
-- goodnight
-- have a nice day
-- i'm off
-- see you later alligator
-- we'll speak soon
+- goodbye
+- see you around
+- see you later
 
-## intent:greet
-- Hi
-- Hey
-- Hi bot
-- Hey bot
-- Hello
-- good morning
-- hi again
-- hi folks
-- hi Mister
-- hi pal!
-- hi there
-- greetings
-- hello everybody
-- hello is anybody there
-- hello robot
-- hi
+## intent:affirm
+- yes
+- indeed
+- of course
+- that sounds good
+- correct
+
+## intent:bot_challenge
+- are you a bot?
+- are you a human?
+- am I talking to a bot?
+- am I talking to a human?
+
+## intent:contact_sales
+- But I wanted a sales call
+- Can I have a call tomorrow at 3pm?
+- Can I have a call?
+- HOW CAN I BOOK A SALES CALL ?
+- How can i contact the team ?
+- I also want to book a sales call
+- I wanna have a subscription for your product
+- I wanna talk to your sales guy
+- I wanna talk to your sales people.
+- I want a sales call
+- I want an offer for your platform
+- I want to book a call
+- I want to book a call with your sales team
+- I want to buy the rasa platform
+- I want to contact sales
+- I want to contact the sales team
+- I want to get in touch with your sales guys
+- I want to learn more about your pricing
+- I want to speak with sales
+- I want to talk to sales
+- I want to talk to someone about your pricing system
+- I want to talk to your sales guys
+- I want to talk to your sales people
+- I want to talk to your sales team
+- I want to talk with sales about our project
+- I would like to book a call
+- I would like to book a sales call
+- I would like to contact your sales team please
+- I would like to have a call with sales team
+- I would like to have a demo scheduled
+- I would like to talk to someone from your sales team
+- i want to buy the enterprise edition
+- i would like rasa enterprise
+- purchase rasa enterprise
+- buy rasa enterprise
+- Ok I want to talk to your sales team immediately
+- Please connect me to someone from sales
+- Please schedule a sales call
+- Sales
+- a call
+- a sales call with [Rufus Gardner](name) would be nice
+- are there different packages customers can book?
+- book
+- book a call
+- book a sale call
+- book a sales
+- book a sales call
+- book an appointment
+- book call
+- book sales call
+- booking a sales call
+- booking a sall
+- booking sales ca;;
+- booking sales call
+- but I want a sales call
+- call
+- call sales
+- call with sales team
+- can i get a ssales call
+- can i speak to the sales team
+- can i talk to a sales representative
+- can i talk to your disagreeable sales man?
+- can someone call me please?
+- can you connect me to sales
+- connect me to your sales department
+- connect to sales
+- connect to the sales team
+- contact
+- contact any sales person
+- contact call with sales
+- contact sales
+- contact sales for me
+- contact to sales
+- get me the sales team
+- give me someone who can explain your business model
+- have a call
+- have a call with the sales team
+- hm ok then i want to talk to the sales dude
+- hmmm sales
+- how does your pricing work?
+- how to book a sales call
+- how to book a sales call>
+- how to book a sales call?
+- i choose the call
+- i choose the call with sales
+- i need a call from sales
+- i need the call request
+- i need to know how i can book support
+- i need to speak to your sales team
+- i need to talk to sales
+- i need your data source
+- i think I want to talk to your sales folks
+- i want one platform please
+- i want a sales call
+- i want someone to call me
+- i want ti booking about booking sales
+- i want to be connected to your sales team
+- i want to be in touch with sales
+- i want to book a appointment
+- i want to book a sales call
+- i want to bookk a sales call
+- i want to buy the rasa platform
+- i want to call
+- i want to chat to sales
+- i want to connect to sales
+- i want to connect to your sales team
+- i want to connect your sales
+- i want to contact sales
+- i want to contact sales now
+- i want to contact sales support
+- i want to contact your sales team
+- i want to have a call with sales
+- i want to talk to sales
+- i would like a call with [Mr Hughes](name)
+- i would like to talk to sales please
+- i'd like to call [Johnnie Essig](name)
+- i'd like to talk to a sales person
+- i'd like to talk to sales
+- id like a call please
+- id like to talk to someone who can explain me what i can do with rasa
+- iwant booking sales
+- just gimme a call
+- let me call the sales team
+- let me contact sales
+- let me have the call
+- let me talk sales
+- let me talk to sales
+- let me talk to your sales guys
+- let me talk to your sales people
+- let me talk to your sales people!
+- let' contact sales now
+- lets talk to sales
+- next the sales contact
+- obviously talk to your awesome sales team
+- ok i want to talk to your sales guys
+- ok sales
+- ok, well, then a sales call with the fabulous [Theodora Estrada](name)
+- please can you book call for me
+- please connect me to sales
+- request a call
+- request call
+- request call with sales team
+- request sales call
+- request sales team
+- sales
+- sales call
+- sales contact
+- sales department
+- sales pl
+- sales please
+- sales sales sales
+- sales team
+- sales team connection
+- sign me up, my email is Elizabeth@yahoo.com
+- talk to sales team
+- we started working with rasa but now we need support
+- Can i have a deno
+- bookin
+- Is there a live demo of rasa somewhere ?
+
 
 ## intent:inform
-- [Sitka](location)
-- [Juneau](location)
-- [Virginia](location)
-- [Cusseta](location)
-- [Chicago](location)
-- [Tucson](location)
-- [Columbus](location)
-- [Valdez](location)
-- [Preston](location)
-- [Huntsville](location)
-- [Boulder](location)
-- [California](location)
-- [Tulsa](location)
-- [Colorado](location)
-- [Goodyear](location)
-- [Albuquerque](location)
-- [Scottsdale](location)
-- [Hibbing](location)
-- [Norman](location)
-- [San](location)
-- [Peoria](location)
-- [New](location)
-- [Corpus](location)
-- [Montgomery](location)
-- [Wichita](location)
-- [Aurora](location)
-- [Denver](location)
-- [Sierra](location)
-- [Georgetown](location)
-- [Birmingham](location)
-- [Fayetteville](location)
-- [Carson](location)
-- [Raleigh](location)
-- [Bakersfield](location)
-- [Mobile](location)
-- [Detroit](location)
-- [Bunnell](location)
-- [Chattanooga](location)
-- [Mesa](location)
-- [Fernley](location)
-- [Marana](location)
-- [Yuma](location)
-- [Little](location)
-- [Athens](location)
-- [Hartsville](location)
-- [Port](location)
-- [Tampa](location)
-- [Fresno](location)
-- [Unalaska](location)
-- [Eloy](location)
-- [Salt](location)
-- [Jackson](location)
-- [Fort](location)
-- [Casa](location)
-- [Charleston](location)
-- [Henderson](location)
-- [Durham](location)
-- [Abilene](location)
-- [Palmdale](location)
-- [Babbitt](location)
-- [Surprise](location)
-- [Cape](location)
-- [Shreveport](location)
-- [Rio](location)
-- [Savannah](location)
-- [Reno](location)
-- [Orlando](location)
-- [North](location)
-- [Tallahassee](location)
-- [Amarillo](location)
-- [St](location)
-- [Knoxville](location)
-- [Sacramento](location)
-- [Clarksville](location)
-- [Los Angeles](location)
-- [New York](location)
-- [Las Vegas](location)
-- [San Diego](location)
-- [San Antonio](location)
-- [El Paso](location)
-- [Kansas location](location)
-- [San Francisco](location)
-- [Santa Barbara](location)
-- [home health agency](facility_type)
-- [hospital](facility_type)
-- [nursing home](facility_type)
-- a [home health agency](facility_type)
-- a [hospital](facility_type)
-- a [nursing home](facility_type)
-
-## intent:search_provider
-- i need a [hospital](facility_type)
-- find me a nearby [hospital](facility_type)
-- show me [hospitals](facility_type)
-- [hospital](facility_type)
-- find me a nearby [hospital](facility_type) my zip code is [10119](location)
-- i need a [home health agency](facility_type)
-- find me a nearby [home health agency](facility_type)
-- show me [home health agency](facility_type)
-- [home health agency](facility_type)
-- find me a nearby [home health agency](facility_type) my zip code is [10119](location)
-- find me a nearby [nursing home](facility_type)
-- show me [nursing home](facility_type)
-- [nursing home](facility_type)
-- find me a nearby [nursing home](facility_type) my zip code is [10119](location)
-- i need a [hospital](facility_type) my zip code is [77494](location)
-- my zip code is [30277](location) and i need a [nursing home](facility_type)
-- my zip code is [86602](location) and i need a [hospital](facility_type)
-- my zip code is [47516](location) and i need a [home health agency](facility_type)
-- i need a [nursing home](facility_type) at [77474](location)
-- i need a [hospital](facility_type) at [77474](location)
-- i need a [home health agency](facility_type) at [77474](location)
-- i am in [Amarillo](location) and i need a [nursing home](facility_type)
-- i am in [New York](location) and i need a [hospital](facility_type)
-- i am in [Las Vegas](location) and i need a [home healt agency](facility_type)
-- i need a [nursing home](facility_type) in [Katy](location)
-- i need a [hospital](facility_type) in [Waco](location)
-- i need a [home health agency](facility_type) in [Clarksville](location)
-- show me [nursing home](facility_type) in [Knoxville](location)
-- show me [hospital](facility_type) in [Durham](location)
-- show me [home health agency](facility_type) in [Detroit](location)
-- find me a nearby [home health agency](facility_type) in [Reno](location)
-- hi i am in [Tampa](location) i need a [nursing  home](facility_type:b27b-2uc7)
-- hi i am in [San Diego](location) i need a [hospital](facility_type:xubh-q36u)
-- hi i am in [Nashville](location) i need a [home health agenc](facility_type:9wzi-peqs)
-- hi i am in [Sacramento](location) i need a [nursing  home](facility_type:b27b-2uc7)
-- hi i am in [Springfield](location) i need a [hospital](facility_type:xubh-q36u)
-- hi i am in [Atlanta](location) i need a [home health agenc](facility_type:9wzi-peqs)
-- hi i am in [Chicago](location) i need a [nursing  home](facility_type:b27b-2uc7)
-- hi i am in [Santa Cruz](location) i need a [hospital](facility_type:xubh-q36u)
-- hi i am in [Boston](location) i need a [home health agenc](facility_type:9wzi-peqs)
-- hello i am in [Tampa](location) i need a [nursing  home](facility_type:b27b-2uc7)
-- hello i am in [San Diego](location) i need a [hospital](facility_type:xubh-q36u)
-- hello i am in [Nashville](location) i need a [home health agenc](facility_type:9wzi-peqs)
-- hello i am in [Sacramento](location) i need a [nursing  home](facility_type:b27b-2uc7)
-- hello i am in [Springfield](location) i need a [hospital](facility_type:xubh-q36u)
-- hello i am in [Atlanta](location) i need a [home health agenc](facility_type:9wzi-peqs)
-- hello i am in [Chicago](location) i need a [nursing  home](facility_type:b27b-2uc7)
-- hello i am in [Santa Cruz](location) i need a [hospital](facility_type:xubh-q36u)
-- hello i am in [Boston](location) i need a [home health agenc](facility_type:9wzi-peqs)
-- Good morning i am in [Tampa](location) i need a [nursing  home](facility_type:b27b-2uc7)
-- Good morning i am in [San Diego](location) i need a [hospital](facility_type:xubh-q36u)
-- Good morning i am in [Nashville](location) i need a [home health agenc](facility_type:9wzi-peqs)
-- Good morning i am in [Sacramento](location) i need a [nursing  home](facility_type:b27b-2uc7)
-- Good morning i am in [Springfield](location) i need a [hospital](facility_type:xubh-q36u)
-- Good morning i am in [Atlanta](location) i need a [home health agenc](facility_type:9wzi-peqs)
-- Good morning i am in [Chicago](location) i need a [nursing  home](facility_type:b27b-2uc7)
-- Good morning i am in [Santa Cruz](location) i need a [hospital](facility_type:xubh-q36u)
-- Good morning i am in [Boston](location) i need a [home health agenc](facility_type:9wzi-peqs)
-- Hello again i need a [nursing home](facility_type) in [Katy](location)
-- Hello again i need a [hospital](facility_type) in [Waco](location)
-- Hello again i need a [home health agency](facility_type) in [Clarksville](location)
-- Good morning i need a [nursing home](facility_type) in [Katy](location)
-- Good morning i need a [hospital](facility_type) in [Waco](location)
-- Good morning i need a [home health agency](facility_type) in [Clarksville](location)
-- Can you tell me a [nursing home](facility_type) in [Oklahoma City](location) ?
-
-## intent:thanks
-- Thanks
-- Thank you
-- Thank you so much
-- Thanks bot
-- Thanks for that
-- cheers
-- cheers bro
-- ok thanks!
-- perfect thank you
-- thanks a bunch for everything
-- thanks for the help
-- thanks a lot
-- amazing, thanks
-- cool, thanks
-- cool thank you
-
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
-
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
-
-## regex:location
-- [0-9]{5}
-
-## synonym:xubh-q36u
-- hospital
-- hospitals
-
-## synonym:9wzi-peqs
-- home health agency
-- home health agencies
-
-## synonym:b27b-2uc7
-- nursing home
-- nursing homes
+- [100k](budget)
+- [100k](budget)
+- [20000](budget)
+- [240k/year](budget)
+- [150,000 INR](budget)
+- I work for [HDFC Bank](company)
+- I work as [Digital marketing](job_function) for [GMR Group](company)
+- The name of the company is [ACME](company)
+- company: [MG Motors](company)
+- it's a small company from Bangalore, the name is [Ather Energy](company)
+- it's a tech company, [FreshDesk](company)
+- [SBI](company)
+- [Bajaj Electricals](company)
+- [example@email.com](business_email)
+- [user@gmr.com](business_email)
+- [maxmeier@firma.de](business_email)
+- [sample@domain.com](business_email)
+- [my email is email@example.com](business_email)
+- [engineer](job_function)
+- [brand manager](job_function)
+- [marketing](job_function)
+- [sales manager](job_function)
+- [growth manager](job_function)
+- [advertising](job_function)
+- [CTO](job_function)
+- [CEO](job_function)
+- [COO](job_function)
+- [Tim Cook](person_name)
+- [Jane Doe](person_name)
+- [Max Mustermann](person_name)
+- [Max Meier](person_name)
+- We plan to have a [social analytics tool](use_case) to increase customer satisfaction.
+- we want to [listen to our customers](use_case) to increase engagement.
+- a [publishing tool](use_case) that reaches our audience and keep them updated about the product.
+- 
